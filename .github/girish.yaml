@@ -1,9 +1,9 @@
 name : nanded
 on : push
-  jobs :
-    greet :
+jobs :
+  greet :
       runs-on : ubuntu-latest
-        steps:
+      steps:
       -  name : "nanded"
-         run : hi i am nanded
+         run : echo "hi i am nanded"
 
